@@ -1,0 +1,44 @@
+application: digic
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+    script: index.html
+  
+- url: /index\.html
+    script: index.html
+
+- url: /cloud-vps\.html
+    script: cloud-vps.html
+
+ - url: /cloud-desktop\.html
+    script: cloud-desktop.html
+
+ - url: /google-suite\.html
+    script: google-suite.html
+
+ - url: /hosting\.html
+    script: hosting.html
+
+ - url: /huong-dan-dang-ky\.html
+    script: huong-dan-dang-ky.html
+
+ - url: /microsoft-license\.html
+    script: microsoft-license.html
+
+ - url: /office-365\.html
+    script: office-365.html
+
+ - url: /quy-dinh-su-dung\.html
+    script: quy-dinh-su-dung.html
+
+ - url: /ssl\.html
+    script: ssl.html
+
+ - url: /ten-mien\.html
+    script: .html
+
+- url: /.*
+  script: Error.html
