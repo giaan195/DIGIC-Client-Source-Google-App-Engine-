@@ -4,39 +4,52 @@ api_version: 1
 handlers:
 - url: /
   script: index.html
+  secure: always
   
 - url: /index\.html
   script: index.html
-
+  secure: always
+  
 - url: /cloud-vps\.html
   script: cloud-vps.html
-
+  secure: always
+  
 - url: /cloud-desktop\.html
   script: cloud-desktop.html
-
+  secure: always
+  
 - url: /google-suite\.html
   script: google-suite.html
-
+  secure: always
+  
 - url: /hosting\.html
   script: hosting.html
-
+  secure: always
+  
 - url: /huong-dan-dang-ky\.html
   script: huong-dan-dang-ky.html
-
+  secure: always
+  
 - url: /microsoft-license\.html
   script: microsoft-license.html
-
+  secure: always
+  
 - url: /office-365\.html
   script: office-365.html
-
+  secure: always
+  
 - url: /quy-dinh-su-dung\.html
   script: quy-dinh-su-dung.html
-
+  secure: always
+  
 - url: /ssl\.html
   script: ssl.html
-
+  secure: always
+  
 - url: /ten-mien\.html
   script: .html
-
+  secure: always
+  
 - url: /.*
   script: Error.html
+  secure: always
