@@ -11,7 +11,7 @@ handlers:
   secure: always
   
 - url: /ten-mien\.html
-  script: tenmien.html
+  script: ten-mien.html
   secure: always
   
 - url: /cloud-hosting\.html
