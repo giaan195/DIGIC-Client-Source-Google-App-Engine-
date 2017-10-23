@@ -2,6 +2,7 @@ runtime: php55
 api_version: 1
 
 handlers:
+	
 - url: /
   script: index.html
   secure: always
@@ -10,44 +11,40 @@ handlers:
   script: index.html
   secure: always
   
-- url: /cloud-vps\.html
-  script: cloud-vps.html
+- url: /ten-mien\.html
+  script: tenmien.html
   secure: always
   
-- url: /cloud-desktop\.html
-  script: cloud-desktop.html
+- url: /cloud-hosting\.html
+  script: cloud-hosting.html
   secure: always
   
-- url: /google-suite\.html
-  script: google-suite.html
+- url: /cloud-server\.html
+  script: cloud-server.html
+  secure: always
+
+- url: /ban-quyen-windows-client\.html
+  script: ban-quyen-windows-client.html
   secure: always
   
-- url: /hosting\.html
-  script: hosting.html
+- url: /ban-quyen-windows-server\.html
+  script: ban-quyen-windows-server.html
+  secure: always
+  
+- url: /ban-quyen-office365\.html
+  script: ban-quyen-office365.html
+  secure: always
+
+- url: /lien-he\.html
+  script: lien-he.html
   secure: always
   
 - url: /huong-dan-dang-ky\.html
   script: huong-dan-dang-ky.html
   secure: always
   
-- url: /microsoft-license\.html
-  script: microsoft-license.html
-  secure: always
-  
-- url: /office-365\.html
-  script: office-365.html
-  secure: always
-  
 - url: /quy-dinh-su-dung\.html
   script: quy-dinh-su-dung.html
-  secure: always
-  
-- url: /ssl\.html
-  script: ssl.html
-  secure: always
-  
-- url: /ten-mien\.html
-  script: tenmien.html
   secure: always
   
 - url: /.*
