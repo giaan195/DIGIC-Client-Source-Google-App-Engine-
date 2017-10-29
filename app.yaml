@@ -2,6 +2,9 @@ runtime: php55
 api_version: 1
 
 handlers:
+- url: /.*
+  script: main.py
+  
 - url: /
   script: index.html
   secure: always
