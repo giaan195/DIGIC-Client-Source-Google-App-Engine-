@@ -3,7 +3,7 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 
 class AllHandler(webapp.RequestHandler):
     def get(self):
-        self.redirect("http://example.com", True)
+        self.redirect("http://digic.vn", True)
 
 application = webapp.WSGIApplication([('/.*', AllHandler)])
 
